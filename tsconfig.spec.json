@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.app.json",
+  "types": [
+    "jasmine",
+    "jquery"
+  ],
+  "include": [
+    "src/**/*.d.ts",
+    "src/**/*.spec.ts"
+  ],
+  "files": [
+    "src/main.ts",
+    "src/polyfills.ts",
+    "src/test.ts",
+  ],
+
+}
