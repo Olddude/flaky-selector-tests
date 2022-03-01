@@ -1,6 +1,7 @@
 Hello dear community,  
 we encounter flakiness when executing unit tests in our project.
 we would appreciate any help or input on that issue.
+to reproduce that issue you will need to run the npm run test command multiple times - about 10x should be enough.
 
 # Issue
 ```do-something.effects.spec.ts``` and ```do-something.selectors.spec.ts``` unit tests seem to run into fixture data conflict when executed multiple times.
